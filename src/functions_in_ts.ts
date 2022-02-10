@@ -55,9 +55,9 @@
 
 
 // === Declare function variable and define later
-let sayHello: (name: string) => void;
-sayHello = (name: string) => {
-    console.log("Hello World, " + name);
-};
+// let sayHello: (name: string) => void;
+// sayHello = (name: string) => {
+//     console.log("Hello World, " + name);
+// };
 
-sayHello("Yavor");
+// sayHello("Yavor");
