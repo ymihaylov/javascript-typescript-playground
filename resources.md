@@ -4,3 +4,5 @@
 # To read
 - https://www.doabledanny.com/why-typescript-over-javascript
 - https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0
+- https://www.typescriptlang.org/docs/handbook/2/classes.html
+

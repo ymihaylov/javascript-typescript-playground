@@ -1,3 +1,3 @@
 - Static typing can prevent a lot of bugs
 - TypeScript will compile the errors despite the errors. It assumes that the developer knows more
-- 
+- In classes, if you omit the access modifiers, by default the property will be public
