@@ -19,43 +19,42 @@
 
 
 // === Constructing smart way
-class Person {
-    constructor(
-        readonly name: string, 
-        private isCool: boolean, 
-        protected email: string, 
-        public pets: number
-    ) {}
+// class Person {
+//     constructor(
+//         readonly name: string, 
+//         private isCool: boolean, 
+//         protected email: string, 
+//         public pets: number
+//     ) {}
 
-    sayHello() {
-        return `Hi, my name is ${this.name} and I have ${this.pets} pets.`;
-    }
-}
+//     sayHello() {
+//         return `Hi, my name is ${this.name} and I have ${this.pets} pets.`;
+//     }
+// }
 
 
 // ==== Extend
-class Programmer extends Person {
-    programmingLanguages: string[];
+// class Programmer extends Person {
+//     programmingLanguages: string[];
 
-    constructor(
-        name: string,
-        isCool: boolean,
-        email: string,
-        pets: number,
-        pL: string[]
-    ) {
-        super(name, isCool, email, pets);
-        this.programmingLanguages = pL;
-    }
-}
+//     constructor(
+//         name: string,
+//         isCool: boolean,
+//         email: string,
+//         pets: number,
+//         pL: string[]
+//     ) {
+//         super(name, isCool, email, pets);
+//         this.programmingLanguages = pL;
+//     }
+// }
 
 // === Examples
 // Init objects from class Person
-const person1 = new Person('Danny', false, 'danny@mail.com', 1);
-// person1.name = "Other Danny"; // Error!
+// const person1 = new Person('Danny', false, 'danny@mail.com', 1);
+// // person1.name = "Other Danny"; // Error!
 
-const person2 = new Person('Yavor', true, 'yavor@mail.com', 0);
+// const person2 = new Person('Yavor', true, 'yavor@mail.com', 0);
 
-// Array of objects of type Person
-let People: Person[] = [person1, person2];
-
+// // Array of objects of type Person
+// let People: Person[] = [person1, person2];
