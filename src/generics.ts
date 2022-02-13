@@ -66,7 +66,7 @@ const addId = <T extends {name: string}>(obj: T) => {
 
 // === Explicitly stated what type the argument should be. 
 // Not necessary most of the time. TypeScript will infer it
-let person1 = addId<{name: string, age: number}>({name: 'John', age: 40});
+// let person1 = addId<{name: string, age: number}>({name: 'John', age: 40});
 
 
 //  === The issue with any
