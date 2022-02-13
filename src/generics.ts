@@ -68,3 +68,61 @@ const addId = <T extends {name: string}>(obj: T) => {
 // Not necessary most of the time. TypeScript will infer it
 let person1 = addId<{name: string, age: number}>({name: 'John', age: 40});
 
+
+//  === The issue with any
+// function logLength(a: any) {
+//     console.log(a.length); // No error
+
+//     return a;
+// }
+
+// let hello = 'Hello world!';
+// logLength(hello); // 11
+
+// let howMany = 8;
+// logLength(howMany); // undefined, but surely we want TS to tell us we've tried to access a length property on a number!
+
+
+// === logLength with generic
+
+// function logLength<T>(a: T) {
+//     console.log(a.length); // Error - TS isn't certain that `a` is a value with length property
+//     return a;
+// }
+
+// Generic labda expression
+// let logLength = <T> (a: T) => {
+
+// }
+
+
+// === Solution - use a generic that extends an interface that ensures every argument passed in has a length property
+interface hasLength {
+    length: number;
+}
+
+let logLength = <T extends hasLength>(a: T) => {
+    console.log(a.length);
+    return a;
+}
+
+let hello = 'Hello World';
+logLength(hello);
+
+let howMany = 8;
+// logLength(howMany); // Error, number doesn't have length property
+
+// Function where the argument is an arrray of elements that all have length property
+let logLengths = <T extends hasLength>(a: T[]) => {
+    a.forEach((element) => {
+        logLength(element);
+    });
+};
+
+let list = [
+    'This string has a length prop',
+    ['This', 'arr', 'has', 'length'],
+    {material: 'plastic', length: 30}
+];
+
+logLengths(list);
