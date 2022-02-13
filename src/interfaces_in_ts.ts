@@ -115,34 +115,34 @@
 
 
 // === Implementing interfaces
-interface HasFormatter {
-    format(): string;
-}
+// interface HasFormatter {
+//     format(): string;
+// }
 
-class Person implements HasFormatter {
-    constructor(
-        public username: string,
-        protected password: string
-    ) {}
+// class Person implements HasFormatter {
+//     constructor(
+//         public username: string,
+//         protected password: string
+//     ) {}
 
-    format = () => {
-        return this.username.toLocaleLowerCase()
-    };
-}
+//     format = () => {
+//         return this.username.toLocaleLowerCase()
+//     };
+// }
 
-// Must be objects that implement the HasFormatter
-let person1: HasFormatter,
-    person2: HasFormatter;
+// // Must be objects that implement the HasFormatter
+// let person1: HasFormatter,
+//     person2: HasFormatter;
 
-person1 = new Person('Danny', '1234');
-person2 = new Person('Yavor', 'qwerty');
+// person1 = new Person('Danny', '1234');
+// person2 = new Person('Yavor', 'qwerty');
 
-console.log(person1.format());
+// console.log(person1.format());
 
-// Ensure people is an array of objects implement HasFormatter
-let people: HasFormatter[] = [];
-people.push(person1);
-people.push(person2);
-// people.push(1); // Error!
+// // Ensure people is an array of objects implement HasFormatter
+// let people: HasFormatter[] = [];
+// people.push(person1);
+// people.push(person2);
+// // people.push(1); // Error!
 
-console.log(people);
+// console.log(people);
