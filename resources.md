@@ -1,7 +1,10 @@
 # Resources from which I learned TypeScript
 - Learn TypeScript – The Ultimate Beginners Guide https://www.freecodecamp.org/news/learn-typescript-beginners-guide
+- Best Practices - 2021 - https://medium.com/@warkiringoda/typescript-best-practices-2021-a58aee199661
 
 # To read
+- https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
 - https://www.doabledanny.com/why-typescript-over-javascript
 - https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0
 - https://www.typescriptlang.org/docs/handbook/2/classes.html
