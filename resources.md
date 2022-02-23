@@ -17,3 +17,6 @@
 - https://www.typescriptlang.org/docs/handbook/2/functions.html#function-overloads
 - https://developer.mozilla.org/en-US/docs/Glossary/Primitive
 - https://www.w3schools.com/js/js_object_definition.asp
+
+# Other JS
+- https://javascript.plainenglish.io/10-github-repos-to-master-javascript-for-free-eb0bdbb77a18
