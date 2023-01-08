@@ -9,7 +9,6 @@
 
 // It's recommended to avoid any type
 
-
 // === Type aliases
 // type StringOrNumber = string | number;
 
