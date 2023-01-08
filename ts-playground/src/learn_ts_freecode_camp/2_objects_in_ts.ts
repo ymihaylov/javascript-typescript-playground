@@ -4,8 +4,8 @@
 //     age: number;
 //     isDev: boolean;
 // };
-//
-// // Assign person to the object with all necessary value types
+
+// Assign person to the object with all necessary value types
 // person = {
 //     name: "Yavor",
 //     age: 29,
@@ -17,9 +17,7 @@
 // person = {
 //     name: "Gosho",
 //     age: 31
-// };
-// ERROR! missing isDev property
-
+// }; // ERROR! missing isDev property
 
 // === Interfaces 101
 // Define signature of an object with interfaces
@@ -28,13 +26,12 @@
 //     location: string,
 //     isDev: boolean
 // };
-//
+
 // let person1: Person = {
 //     name: "Yavor",
 //     location: "UK",
 //     isDev: true
 // };
-
 
 // === Functions in interface
 interface Speech {

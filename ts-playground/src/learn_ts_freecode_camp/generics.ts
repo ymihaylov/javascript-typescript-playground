@@ -64,7 +64,7 @@ const addId = <T extends {name: string}>(obj: T) => {
 // let person1 = addId(['Sally', 26]); // Error! Not assignable
 
 
-// === Explicitly stated what type the argument should be. 
+// === Explicitly stated what type the argument should be.
 // Not necessary most of the time. TypeScript will infer it
 // let person1 = addId<{name: string, age: number}>({name: 'John', age: 40});
 

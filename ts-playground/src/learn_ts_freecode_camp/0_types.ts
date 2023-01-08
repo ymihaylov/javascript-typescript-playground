@@ -25,6 +25,7 @@
 
 
 // === Primitive vs reference types
+// - Reference types are arrays, objects and functions
 // - Primitive types
 // x and y both contain primitive data, and they're completely independent of each other
 let x = 2;

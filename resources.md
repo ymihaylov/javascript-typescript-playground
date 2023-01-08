@@ -2,6 +2,7 @@
 - Learn TypeScript – The Ultimate Beginners Guide https://www.freecodecamp.org/news/learn-typescript-beginners-guide
 - Best Practices - 2021 - https://medium.com/@warkiringoda/typescript-best-practices-2021-a58aee199661
 - SOLID - https://blog.bitsrc.io/solid-principles-in-typescript-153e6923ffdb
+- Interfaces vs types - https://blog.devgenius.io/interfaces-vs-types-in-typescript-7567ffe390cd
 
 # To read
 - https://javascript.plainenglish.io/a-deep-introduction-to-property-decorators-in-typescript-8ef011169ec
