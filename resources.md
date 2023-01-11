@@ -1,10 +1,15 @@
-# Resources from which I learned TypeScript
+# Resources
 - Learn TypeScript – The Ultimate Beginners Guide https://www.freecodecamp.org/news/learn-typescript-beginners-guide
 - Best Practices - 2021 - https://medium.com/@warkiringoda/typescript-best-practices-2021-a58aee199661
 - SOLID - https://blog.bitsrc.io/solid-principles-in-typescript-153e6923ffdb
 - Interfaces vs types - https://blog.devgenius.io/interfaces-vs-types-in-typescript-7567ffe390cd
+- JavaScript Example - https://www.freecodecamp.org/news/javascript-example/
 
 # To read
+- https://www.freecodecamp.org/news/how-javascript-works-behind-the-scene-javascript-execution-context/
+- https://www.freecodecamp.org/news/higher-order-functions-in-javascript-explained/
+- https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/
+- https://www.freecodecamp.org/news/the-complete-guide-to-this-in-javascript/
 - https://javascript.plainenglish.io/a-deep-introduction-to-property-decorators-in-typescript-8ef011169ec
 - https://medium.com/nerd-for-tech/typescript-sealed-union-types-better-factories-without-switch-32deda73a26b
 - https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
