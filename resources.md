@@ -6,6 +6,8 @@
 - JavaScript Example - https://www.freecodecamp.org/news/javascript-example/
 
 # To read
+- https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions
+- https://www.typescriptlang.org/docs/handbook/2/narrowing.html
 - https://www.freecodecamp.org/news/how-javascript-works-behind-the-scene-javascript-execution-context/
 - https://www.freecodecamp.org/news/higher-order-functions-in-javascript-explained/
 - https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/
