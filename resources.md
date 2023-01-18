@@ -4,6 +4,7 @@
 - SOLID - https://blog.bitsrc.io/solid-principles-in-typescript-153e6923ffdb
 - Interfaces vs types - https://blog.devgenius.io/interfaces-vs-types-in-typescript-7567ffe390cd
 - JavaScript Example - https://www.freecodecamp.org/news/javascript-example/
+- console.log - https://javascript.plainenglish.io/its-2022-please-don-t-just-use-console-log-anymore-217638337c7d
 
 # To read
 - https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions
