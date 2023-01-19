@@ -9,6 +9,7 @@
 
 # To read
 - https://javascript.plainenglish.io/i-lost-a-job-opportunity-just-because-of-promise-all-be396f6efe87
+- https://ivov.dev/notes/typescript-and-set-theory
 - https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions
 - https://www.typescriptlang.org/docs/handbook/2/narrowing.html
 - https://www.freecodecamp.org/news/how-javascript-works-behind-the-scene-javascript-execution-context/
