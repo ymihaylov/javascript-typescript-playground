@@ -8,6 +8,9 @@
 - https://javascript.plainenglish.io/why-using-just-console-log-in-2023-is-a-big-no-no-ef99f1940901
 
 # To read
+- https://bobbyhadz.com/blog/advanced-typescript-generics
+- https://timmousk.com/blog/typescript-declare/
+- https://www.codingninjas.com/blog/2021/05/18/what-is-node-js-where-when-how-to-use-it/
 - https://javascript.plainenglish.io/i-lost-a-job-opportunity-just-because-of-promise-all-be396f6efe87
 - https://ivov.dev/notes/typescript-and-set-theory
 - https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions
