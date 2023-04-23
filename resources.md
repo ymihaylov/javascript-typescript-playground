@@ -11,6 +11,10 @@
 - https://bobbyhadz.com/blog/advanced-typescript-generics
 - https://timmousk.com/blog/typescript-declare/
 - https://www.codingninjas.com/blog/2021/05/18/what-is-node-js-where-when-how-to-use-it/
+- https://www.freecodecamp.org/news/top-javascript-concepts-to-know-before-learning-react/
+- https://hackmamba.io/blog/2020/11/dynamic-javascript-object-keys/
+- https://www.freecodecamp.org/news/javascript-es6-promises-for-beginners-resolve-reject-and-chaining-explained/
+- https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript/
 - https://javascript.plainenglish.io/i-lost-a-job-opportunity-just-because-of-promise-all-be396f6efe87
 - https://ivov.dev/notes/typescript-and-set-theory
 - https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions
